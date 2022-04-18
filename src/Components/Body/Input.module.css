@@ -1,0 +1,16 @@
+.input {
+  height: 30px;
+  width: 60px;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.btn {
+  height: 30px;
+  border-radius: 0.5rem;
+  margin-left: 5px;
+}
+
+.form {
+  margin-right: 50px;
+}

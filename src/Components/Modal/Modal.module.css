@@ -1,0 +1,46 @@
+.backdrop {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-color: #3f3f3f;
+  z-index: 10;
+}
+
+.overlay {
+  position: fixed;
+  border-radius: 0.4rem;
+  top: 10%;
+  left: 30%;
+  width: 40%;
+  height: auto;
+  z-index: 100;
+  background-color: aliceblue;
+}
+
+.overlay button {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: orangered;
+  border-radius: 0.5rem;
+  box-shadow: 0, 0, 0, rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  height: 25px;
+  width: 80px;
+}
+
+.overlay div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.overlay ul {
+  list-style-type: none;
+  overflow: scroll;
+}
+
+.overlay ul li {
+  margin: 0;
+  border-bottom: 1px solid gray;
+}

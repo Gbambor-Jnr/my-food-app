@@ -1,0 +1,14 @@
+@keyframes appearSlow {
+  from {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
+
+.body {
+  animation: appearSlow 600ms ease-out forwards;
+}

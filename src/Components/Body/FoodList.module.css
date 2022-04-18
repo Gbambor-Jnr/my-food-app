@@ -1,0 +1,18 @@
+.ul {
+  list-style-type: none;
+}
+
+.ul li {
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul li img {
+  width: 150px;
+  margin: 10px;
+}
+
+.div {
+  margin-right: 500px;
+}
